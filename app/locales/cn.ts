@@ -4,7 +4,8 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      "抱歉！你现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入激活码Key激活使用。",
+    // "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
   },
   Auth: {
     Title: "需要密码",
@@ -200,9 +201,9 @@ const cn = {
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
     Token: {
-      Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
-      Placeholder: "OpenAI API Key",
+      Title: "激活码Key",
+      SubTitle: "使用激活码Key可激活使用！",
+      Placeholder: "请输入激活码Key",
     },
 
     Usage: {
@@ -212,7 +213,7 @@ const cn = {
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
-      NoAccess: "输入 API Key 或访问密码查看余额",
+      NoAccess: "输入 激活码Key 或访问密码查看余额",
     },
     AccessCode: {
       Title: "访问密码",

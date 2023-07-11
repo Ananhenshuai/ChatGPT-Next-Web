@@ -817,6 +817,7 @@ export function Chat() {
     if (!accessStore.isAuthorized()) {
       copiedHello.content = Locale.Error.Unauthorized;
     }
+    // console.log(copiedHello, 'asdjkhashjkdjkhsahkj')
     context.push(copiedHello);
   }
 

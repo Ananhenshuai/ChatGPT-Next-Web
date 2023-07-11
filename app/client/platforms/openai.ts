@@ -225,7 +225,7 @@ export class ChatGPTApi implements LLMApi {
         message: string;
       };
     };
-
+    console.log(response);
     const total = (await subs.json()) as {
       hard_limit_usd?: number;
     };
