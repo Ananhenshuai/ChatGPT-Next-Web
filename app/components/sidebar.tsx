@@ -150,14 +150,14 @@ export function SideBar(props: { className?: string }) {
           icon={<StudyIcon />}
           text="教程"
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open("http://www.baidu.com")}
+          onClick={() => window.open("https://note.youdao.com/s/UwKkcSv4")}
           shadow
         />
         <IconButton
           icon={<PayIcon />}
           text="购买"
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open("http://www.taobao.com")}
+          onClick={() => window.open("https://note.youdao.com/s/WZbfpNrJ")}
           shadow
         />
       </div>
