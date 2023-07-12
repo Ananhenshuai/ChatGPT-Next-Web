@@ -157,7 +157,7 @@ export function SideBar(props: { className?: string }) {
           icon={<PayIcon />}
           text="购买"
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open("http://www.baidu.com")}
+          onClick={() => window.open("http://www.taobao.com")}
           shadow
         />
       </div>
